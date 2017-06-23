@@ -5,11 +5,11 @@ Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more. It r
 ## Build
 
 ```bash
-docker build -t docker-squid github.com/engelhardtm/docker-squid
+docker build -t docker-squid github.com/engelhardtm/squid
 ```
 
 ## Quickstart
 
 ```bash
-docker run -d -p 3128:3128 engelhardtm/docker-squid
+docker run -d -p 3128:3128 engelhardtm/squid
 ```
